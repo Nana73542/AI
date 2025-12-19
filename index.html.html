@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elective Mathematics – ANSTECH Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="economics.html">Economics</a>
+    <a href="emaths.html" class="active">Elective Mathematics</a>
+    <a href="coremaths.html">Core Mathematics</a>
+  </nav>
+
+  <header>
+    <h1>Elective Mathematics</h1>
+    <p>Past Questions • Solutions • Video Tutorials</p>
+  </header>
+
+  <section class="subject-intro">
+    <div class="year-nav">
+      <strong>Jump to year:</strong>
+      <a href="#emath-2024">2024</a>
+      <a href="#emath-2023">2023</a>
+    </div>
+    <div class="search-area">
+      <input type="text" id="yearSearch" placeholder="Search year (e.g. 2024)">
+    </div>
+    <p>This page contains Elective Mathematics past questions organised by year.</p>
+  </section>
+
+  <!-- YEAR BLOCKS -->
+  <section class="year-block" id="emath-2024">
+    <h2>Elective Mathematics – 2024</h2>
+    <div class="pdf-viewer">
+      <iframe src="ELECTIVE MATHEMATICS 2024.pdf" title="EMATS 2024 Past Questions"></iframe>
+    </div>
+    <div class="pdf-download">
+      <a href="WASSCE Elective Maths 2025.pdf" download>Download PassQuestions (PDF)</a>
+    </div>
+    <div class="answers-toggle">
+      <button type="button" class="show-answers">Show Answers</button>
+    </div>
+    <div class="answers-viewer" hidden>
+      <iframe src="WASSCE 2025, ELECTIVE MATHEMATICS PAPER 2 SOLUTION.pdf" title="EMATS 2025 Answers"></iframe>
+    </div>
+    <div class="video-section">
+      <h3>Video Tutorials</h3>
+      <video controls><source src="NSMQ.mp4" type="video/mp4"></video>
+    </div>
+  </section>
+
+  <button id="backToTop">↑ Top</button>
+  <button id="uploadAdminBtn">+ Upload PDF/Video</button>
+  <button id="logoutAdminBtn">Logout Admin</button>
+
+  <footer>
+    <p>Elective Mathematics Resource Page • Built for Academic Learning</p>
+  </footer>
+</body>
+</html>
